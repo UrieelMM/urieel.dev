@@ -1,0 +1,31 @@
+.assessments {
+  margin-top: 80px;
+
+  h2 {
+    margin: 40px 0;
+  }
+
+  .assessment {
+    margin-bottom: 40px;
+
+    .card {
+      box-shadow: 5px 3px 10px 3px rgba(76, 0, 255, 0.314);
+      border-radius: 10px;
+    }
+
+    &__title {
+      font-size: 18px;
+    }
+
+    &__image {
+      height: 250px;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+      }
+    }
+  }
+}

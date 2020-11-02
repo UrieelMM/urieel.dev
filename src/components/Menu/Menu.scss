@@ -1,0 +1,45 @@
+.navbar-app {
+  z-index: 10;
+  background-color: rgb(76, 0, 255) !important;
+  .navbar {
+    max-width: 1200px !important;
+  }
+  img {
+    margin-left: 40px;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+  }
+}
+.container-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-nav {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+.navbar-nav a {
+  margin-left: 60px;
+  color: white !important;
+  font-weight: bold;
+  &:hover {
+    color: rgb(0, 217, 255) !important;
+    text-decoration: none;
+  }
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("https://res.cloudinary.com/dz5tntwl1/image/upload/v1604264054/Proyectos/portafolio/lista_vmh4gw.png") !important;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 425px) {
+  .navbar-app {
+    img {
+      height: 60px;
+      width: 60px;
+    }
+  }
+}

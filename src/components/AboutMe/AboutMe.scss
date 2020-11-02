@@ -1,0 +1,46 @@
+.about-me {
+  background-color: white;
+  box-shadow: 4px 8px 20px 3px rgba(96, 29, 252, 0.747);
+  -webkit-box-shadow: 4px 8px 20px 3px rgba(96, 29, 252, 0.747);
+  -moz-box-shadow: 4px 8px 20px 3px rgba(96, 29, 252, 0.747);
+  border-radius: 10px;
+  padding: 40px 50px;
+  text-align: center;
+  border-bottom: 5px solid rgb(0, 217, 255);
+
+  p {
+    text-align: justify;
+  }
+
+  button {
+    background-image: linear-gradient(
+      to left,
+      rgb(76, 0, 255) 20%,
+      rgb(122, 65, 255) 100%
+    );
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgb(76, 0, 255);
+
+    &:hover {
+      background-image: linear-gradient(
+        to left,
+        rgb(96, 29, 252) 20%,
+        rgb(129, 88, 224) 100% 100%
+      );
+      box-shadow: 5px 5px 12px rgb(96, 29, 252);
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .about-me {
+    width: 90%;
+    padding: 20px;
+  }
+}

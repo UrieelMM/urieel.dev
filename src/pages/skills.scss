@@ -1,0 +1,10 @@
+.skills {
+  margin-top: 80px;
+
+  &__block {
+    margin-top: 40px;
+    > h2 {
+      margin-bottom: 20px;
+    }
+  }
+}
